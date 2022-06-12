@@ -68,6 +68,7 @@ button:hover{
   flex: 1 1 0%;
   background-color: var(--primary);
   font-weight: 700;
+  border: #FFF;
 }
 
 .digitos{
@@ -79,5 +80,6 @@ button:hover{
   flex: 2 2 33.333%;
   max-width: 33.333%;
   background-color: var(--dark);
+  border-color: var(--secondary);
 }
 
