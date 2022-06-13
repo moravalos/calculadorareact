@@ -15,6 +15,11 @@ const createDigits = () => {
       <div className="calculadora">
         <div className="display">
           <span>(0)</span>
+          <div className="digitos">
+            {createDigits()}
+            <button>.</button>
+            <button>=</button>
+          </div>
           <div className="operadores">
             <button>/</button>
             <button>*</button>
@@ -22,11 +27,6 @@ const createDigits = () => {
             <button>-</button>
 
             <button>DEL</button>
-          </div>
-          <div className="digitos">
-            {createDigits()}
-            <button>.</button>
-            <button>=</button>
           </div>
         </div>
       </div>
