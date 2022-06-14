@@ -3,7 +3,7 @@ function App() {
 const createDigits = () => {
   const digits = [];
 
-  for (let i=0; i < 10; i++){
+  for (let i=1; i < 10; i++){
     digits.push(
       <button key={i}>{i}</button>
     )
@@ -19,6 +19,7 @@ const createDigits = () => {
             {createDigits()}
             <button>.</button>
             <button>=</button>
+            <button>0</button>
           </div>
           <div className="operadores">
             <button>/</button>
